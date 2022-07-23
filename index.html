@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <div class="card">
+        <h3 style="font-weight: bold; font-size: 20px">Your Safari is our responsibility</h3><br/><br/>
+        <form action="#">
+            <div class="input-item">
+                <label for="distance">Enter distance(km)</label>
+                <input type="text" id="distance">
+            </div><br/>
+
+            <div class="input-item">
+                <label for="people">No. of Passengers</label>
+                <input type="text" id="capacity" style="text-align: centre;">
+            </div><br/><br/>
+
+            <div class="input-item">
+                <label for="rate">Amount per passenger</label>
+                <input type="text" id="rate" disabled style="color: black; font-size: 18px; font-weight: bold;">
+            </div><br/><br/><br/><br/>
+            
+            <div class="input-item">
+                <label for="sum">Total trip fare</label>
+                <input type="text" id="trip" disabled style="color: white; font-size: 18px; font-weight: bold;">
+            </div><br/><br/>
+            <div class="btn">
+                <a href="#"><button onclick="tripfare()">Calculate</button></a>
+            </div>
+           
+        </form>
+    </div>
+  </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
